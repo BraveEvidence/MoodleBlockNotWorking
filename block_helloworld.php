@@ -15,7 +15,7 @@ class block_helloworld extends block_base {
         $this->content = new stdClass();
         
         // Load our JavaScript module
-        $this->page->requires->js_call_amd('block_helloworld/main', 'init');
+        $PAGE->requires->js_call_amd('block_helloworld/main', 'init');
 
         
         // Create the form HTML
